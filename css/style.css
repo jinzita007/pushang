@@ -1,8 +1,9 @@
 *{margin:0;padding:0;}
 body {
     background: #F2F2F3;
-    /*font-family: "SimHei",Arial,Verdana,Sans-serif;*/
-    font-family: Arial, 黑体, sans-serif;
+    font-family: "Microsoft YaHei",Arial, Helvetica, Verdana, sans-serif;
+    font-size: 12px;
+
 }
 
 .clear {
@@ -41,10 +42,10 @@ a.searchbtn,a.se_english{text-decoration: none}
     position: relative;
     margin-bottom: 30px;
     padding-left: 10px;
+    
 }
 .nav .li1.arrbox {
-    background: url(arr.gif) no-repeat 80px 14px;
-    padding-right: 10px;
+    padding-right: 20px;
     cursor: pointer;
 }
 .nav li.len1 {
@@ -52,7 +53,7 @@ a.searchbtn,a.se_english{text-decoration: none}
 }
 .nav .li1 {
     font-size: 14px;
-    font-weight: bold;
+    /*font-weight: bold;*/
     line-height: 32px;
     float: left;
     position: relative;
@@ -69,6 +70,7 @@ ul.nav li.nav_li{
     padding-right: 30px;
     position: relative;
 }
+ul.nav li.nav_li a{font-size: 12px}
 ul.nav li a:link, a:visited {
     color: #6d6d6d;
     text-decoration: none;
@@ -114,7 +116,7 @@ ul.hai li{float: left;width: 25%;height: 170px}
 .lian_xu{border-bottom: 2px dotted #848484;margin-bottom: 20px}
 ul.lian{list-style: none;margin-bottom: 60px}
 ul.lian li{margin-bottom: 10px}
-ul.lian li.lian_li5{margin-left: 50px}
+ul.lian li.lian_li5{margin-left: 40px}
 /*版权*/
 ul.ban{list-style: none}
 .ban_xu{border-bottom: 2px dotted #848484;margin-bottom: 15px}
@@ -168,7 +170,7 @@ dd p.dd_p3{margin-bottom: }
 .news_div2 p.news_li_p1{margin-bottom: 5px}
 .news_div2 p.news_li_p2{margin-bottom: 15px}
 .news_p{margin-left: 16px;margin-right: 16px}
-.news_p p{line-height: 1.8;text-indent:20px}
+.news_p p{line-height: 1.8;font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;}
 .news_p_a{margin-bottom: 30px}
 .news_p_f{margin-bottom: 20px}
 .news_li_01{margin-bottom: 10px}
@@ -274,6 +276,6 @@ ul.pinpang li{display: inline-block;width: 25%;line-height: 1.8}
     border-top: 8px solid #7D7D7D;
     position: absolute;
     top: 12px;
-    left: 43px;
+    left: 48px;
 }
 
