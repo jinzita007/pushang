@@ -144,6 +144,7 @@ ul.hai li{float: left;width: 25%;height: 170px}
 ul.lian{list-style: none;margin-bottom: 60px}
 ul.lian li{margin-bottom: 10px}
 ul.lian li.lian_li5{margin-left: 40px}
+li.lian_li6{margin-left: 30px}
 /*版权*/
 ul.ban{list-style: none}
 .ban_xu{border-bottom: 2px dotted #848484;margin-bottom: 15px}
