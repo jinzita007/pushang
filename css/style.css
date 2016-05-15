@@ -1,0 +1,279 @@
+*{margin:0;padding:0;}
+body {
+    background: #F2F2F3;
+    /*font-family: "SimHei",Arial,Verdana,Sans-serif;*/
+    font-family: Arial, 黑体, sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+.containor {
+    width: 910px;
+    background: #fff;
+    padding: 5px 25px 25px;
+    margin: 0 auto;
+    color: #6d6d6d;
+}
+.north {
+    padding: 35px 0 24px;
+}
+/*左边的logo*/
+.logo a img{width: 200px;height: 200px}
+.logo {
+    float: left;
+    width: 166px;
+}
+/*右边的搜索框*/
+.north .fright {
+    float: right;
+    width: 400px;
+    text-align: right;
+    padding-top: 80px;
+    padding-right: 30px;
+}
+a.searchbtn,a.se_english{text-decoration: none}
+/*菜单导航条*/
+.nav {
+    background: #eee;
+    height: 32px;
+    z-index: 2;
+    position: relative;
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+.nav .li1.arrbox {
+    background: url(arr.gif) no-repeat 80px 14px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.nav li.len1 {
+    width: 100px;
+}
+.nav .li1 {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 32px;
+    float: left;
+    position: relative;
+}
+ul.nav {
+    list-style: none;
+}
+ul.nav li.nav_li{
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 32px;
+    display: inline;
+    padding-right: 30px;
+    position: relative;
+}
+ul.nav li a:link, a:visited {
+    color: #6d6d6d;
+    text-decoration: none;
+    outline: none;
+}
+table tr td a:hover{color: #000}
+
+.nav .li1 .subnav {
+    display: none;
+    position: absolute;
+    background: #fff;
+    /*left: 30px;*/
+    z-index: 99999;
+    top: 32px;
+}
+.nav .li1.show .subnav{ display:block;}
+.nav li.len2 {
+    width: 70px;
+}
+.nav td {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 12px;
+    padding: 6px 10px;
+}
+/*精选案例*/
+.jingxuan h4{margin-bottom: 10px;}
+.jing_xu{border-bottom: 2px dotted #848484;margin-bottom: 20px}
+ul.jing{list-style: none;text-align: center;}
+ul.jing li{float: left;width: 25%;height: 170px}
+/*ul.jing li:nth-child(n + 1){margin-right:0.8%;margin-left:0.8%;}*/
+
+/*海报欣赏*/
+.haibao h4{margin-bottom: 10px}
+.hai_xu{border-bottom: 2px dotted #848484;margin-bottom: 20px}
+ul.hai{list-style: none;text-align: center;}
+ul.hai li{float: left;width: 25%;height: 170px}
+
+.footer{clear:both;}
+/*联系我们*/
+.lianxi{bottom:0;}
+.lianxi h4{margin-bottom: 10px}
+.lian_xu{border-bottom: 2px dotted #848484;margin-bottom: 20px}
+ul.lian{list-style: none;margin-bottom: 60px}
+ul.lian li{margin-bottom: 10px}
+ul.lian li.lian_li5{margin-left: 50px}
+/*版权*/
+ul.ban{list-style: none}
+.ban_xu{border-bottom: 2px dotted #848484;margin-bottom: 15px}
+
+
+/*Member首页*/
+.chengyuan{clear: both;}
+.chengyuan h4{margin-bottom: 10px}
+.cheng_xu{border-bottom: 2px dotted #848484;margin-bottom: 40px}
+.cheng{
+    list-style: none;
+    margin-bottom: 60px;
+}
+.cheng dl {
+    margin-top: 20px;
+    width: 100%;
+    float: left;
+}
+.cheng dt {
+    position: relative;
+    width: 210px;
+    float: left;
+    margin-bottom: 120px;
+    margin-right: 15px;
+    
+}
+.cheng dd {
+    width: 676px;
+    float: left;
+}
+.cheng dd h3{color: #FFDC0D}
+dl.dl_01{margin-bottom: 150px}
+dd{display: block;}
+dd h4{color: #FFDC0D}  
+dd h3{margin-bottom: 10px}
+dd p{line-height: 1.8}
+dd p.dd_p1{margin-bottom: 10px}
+dd p.dd_p2{margin-bottom: 25px}
+dd p.dd_p3{margin-bottom: }
+.dt_01{border-right: 1px solid #FFDC0D;line-height: 80px;}
+.dt_h{outline: 1px solid #FFDC0D;
+    position: relative;
+    top: 220px;
+    width: 215px;
+}
+/*News 动态*/
+.newsdongtai h4{margin-bottom: 10px;}
+.newsdongtai_xu{border-bottom: 2px dotted #848484;margin-bottom: 40px}
+.news_div,.news_img{text-align: center;margin-bottom: 20px}
+.news_div{margin-bottom: 30px}
+.news_div2 p.news_li_p1{margin-bottom: 5px}
+.news_div2 p.news_li_p2{margin-bottom: 15px}
+.news_p{margin-left: 16px;margin-right: 16px}
+.news_p p{line-height: 1.8;text-indent:20px}
+.news_p_a{margin-bottom: 30px}
+.news_p_f{margin-bottom: 20px}
+.news_li_01{margin-bottom: 10px}
+/*关于朴上*/
+.guanyu{clear: both;}
+.guanyu h4{margin-bottom: 10px}
+.guanyu_xu{border-bottom: 2px dotted #848484;margin-bottom: 40px}
+
+/*关于页面*/
+.about{
+    margin-left: 130px;
+    margin-right: 130px;
+}
+.jian_h{margin-bottom: 10px}
+.jian_p{margin-bottom: 45px;padding: inherit;line-height: 1.6;}
+.pu_h{margin-bottom: 10px}
+.pu_p{margin-bottom: 45px;padding: inherit;line-height: 1.6;}
+
+.fu_h{margin-bottom: 10px}
+.fuwu p{line-height: 1.6}
+.fu_div{float: left;width: 40%;}
+.fu_div_m{margin-bottom: 130px}
+
+.hezuo{margin-bottom: 145px}
+.he_h{margin-bottom: 10px}
+.he_div{float: left;width: 50%}
+.he_p{padding: inherit;line-height: 1.6;}
+
+
+/*合作页面*/
+.Partnership{clear: both;}
+.Partnership h4{margin-bottom: 10px}
+.Partnership_xu{border-bottom: 2px dotted #848484;margin-bottom: 40px}
+
+/*招聘页面*/
+.Recruitment{clear: both;}
+.Recruitment h4{margin-bottom: 10px}
+.Recruitment_xu{border-bottom: 2px dotted #848484;margin-bottom: 40px}
+
+/*奥诺斯特画册设计页面*/
+
+.huace{clear: both;margin-bottom: 90px;}
+.huace h4{margin-bottom: 10px}
+.huace_xu{border-bottom: 2px dotted #848484;margin-bottom: 40px}
+
+/*东方博瑞品牌形象设计*/
+.dongf_01{margin-bottom: 120px}
+.dongf_02{margin-bottom: 120px}
+.dongf_03{margin-bottom: 120px}
+
+/*品牌案例-*/
+ul.pinpang{text-align: center;}
+ul.pinpang li{display: inline-block;width: 25%;line-height: 1.8}
+/*LANECO品牌形象&包装设计*/
+.lan_01{margin-bottom: 60px}
+
+/*分享样式*/
+.sns-share{float: right;margin-top: -50px}
+
+/*显示遮罩效果*/
+
+.con-two{
+    /*width: 297px;
+    height: 198px;
+    float: left;
+    margin-right: 35px;
+    margin-bottom: 15px;*/
+    position: relative;
+    cursor: pointer;
+}
+.txt-two{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding-top: 60px;
+    line-height: 45px;
+    text-align: center;
+    color: #000;
+    background: rgba(255, 220, 13, 0.57);
+    display: none;
+}
+.txt-two h3{
+    position: relative;
+    bottom: 24px;
+    /*font-weight: normal;*/
+}
+.txt-two p{
+    font-weight: bold;
+    position: relative;
+    bottom: 30px;
+    font-size: 14px;
+    display: block;
+    line-height: 20px;
+}
+
+/* 倒三角形*/
+.san{
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 8px solid #7D7D7D;
+    position: absolute;
+    top: 12px;
+    left: 43px;
+}
+

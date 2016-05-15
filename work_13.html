@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>游瓷-海报设计页面</title>
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/share.css">
+	<link rel="stylesheet" href="css/jquery.bxslider.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+	<!--轮播图的js文件-->
+	<script type="text/javascript">
+		$(document).ready(function(){
+		  $('.bxslider').bxSlider({
+        auto: true, 
+      });
+		});
+	</script>
+</head>
+<body>
+	<div class="containor">
+	<!--logo及搜索框-->
+	  <div class="north">
+	  <div class="logo"><a href="index.html"><img src="img/logo.png"></a></div>
+	  <div class="fright">
+	  <form name="form1" id="form1" action="" method="post">
+	  <input type="text" name="k" class="txt">
+	     <a href="" class="searchbtn" onclick="form1.submit();">搜索</a>| <a class="se_english" href="">EN</a>
+	  </form></div>
+	  <div class="clear"></div>
+	</div>
+    <!--分享-->
+  <div class="sns-share"> 
+      <a href="" class="qq"><i class="icon iconfont icon-qq"></i></a>
+      <a href="" class="weibo"><i class="icon iconfont icon-weibo"></i></a>
+      <a href="" class="wechat"><i class="icon iconfont icon-wechat"></i></a>
+  </div>
+    <!--菜单导航条-->
+    <ul class="nav">
+    	<li class="li1 len1"><a href="News.html" t1="News" t2="新闻">News</a></li>
+        <li class="li1 len1"><a href="About.html" t1="About" t2="关于">About</a></li>
+        <li class="li1 arrbox arrbox2 len2"><a href="index.html" t1="Works" t2="案例">Works</a>
+        <div class="san"></div>
+        <table cellspacing="0" cellpadding="0" class="subnav" border="0">
+      <tbody><tr>
+        <td height="5"></td>
+      </tr>
+      
+     <tr>
+        <td nowrap="nowrap"><a href="Brand.html">品牌案例 Brand Works</a></td>
+      </tr>
+      
+      <tr>
+        <td nowrap="nowrap"><a href="Packing.html">包装 Packing</a></td>
+      </tr>
+      
+      <tr>
+        <td nowrap="nowrap"><a href="Posters.html">海报 Posters</a></td>
+      </tr>
+      
+      <tr>
+        <td nowrap="nowrap"><a href="">书籍 Book</a></td>
+      </tr>                                                                              
+
+      <tr>
+        <td height="5"></td>
+      </tr>
+    </tbody></table>
+
+        </li>
+        <li class="li1 len1"><a href="Partnership.html" t1="Partnership" t2="合作">Partnership</a></li>
+        <li class="li1 len1"><a href="Contact.html" t1="Contact" t2="联系">Contact</a></li>
+        <li class="li1 len1"><a href="Member.html" t1="Members" t2="成员">Members</a></li>
+        <li class="li1 len1"><a href="Recruitment.html" t1="Recruitment" t2="招聘">Recruitment</a></li>
+    </ul>
+    <!--轮播图-->
+    <ul class="bxslider">
+    <li><img src="img/banner01.png" /></li>
+    <li><img src="img/banner01.png" /></li>
+    <li><img src="img/banner01.png" /></li>
+</ul>
+    <!--游瓷-海报设计-->
+    <div class="huace">
+    <h4>POSTER  游瓷-海报设计</h4>
+    <div class="huace_xu"></div>
+        <img src="img/work_13.png" alt="">
+    </div>
+    
+    <!--联系我们-->
+    <div class="lianxi">
+    <h4>Contact  联系我们</h4>
+    <div class="lian_xu"></div>
+    <ul class="lian">
+    	<li>手机：13713785732</li>
+    	<li>QQ：1528590535</li>
+    	<li>weixin：1528590535</li>
+    	<li>邮箱：1528590535@qq.com</li>
+    	<li class="lian_li5">liyufengdesign@foxmail.com</li>
+    	<li>地址：广东省深圳市龙岗区六合路6号多龙玩具厂</li>
+    	<li>邮编：518115</li>
+    	<li>add：Shenzhen city Longgang District Road No. 6 dragon toys apartment</li>
+    	<li></li>
+    </ul>
+    <div class="ban_xu"></div>
+    <ul class="ban">
+    	<li>朴上品牌设计工作室版权所有</li>
+    	<li>www.pushangcd.com</li>
+    	<li>2016.1.15</li>
+    </ul>
+	</div>
+    <!--分享功能-->
+  <script type="text/javascript" src="js/jquery.qrcode.min.js"></script>
+  <script src="js/share.js"></script>
+  <script>
+    $(function(){
+        var $config = {
+        url    : 'www.pushangcd.com', // 网址，默认使用 window.location.href
+        site   : '', // 来源（QQ空间会用到）, 默认读取head标签：<meta name="site" content="http://overtrue" />
+        title  : '这个是tittle', // 标题，默认读取 document.title
+        description : '', // 描述, 默认读取head标签：<meta name="description" content="PHP弱类型的实现原理分析" />
+        iamge    : '', // 图片, 默认取网页中第一个img标签
+        target : '_blank' //打开方式
+       };
+
+    $('.sns-share').share($config);
+    });
+</script>
+</body>
+</html>
