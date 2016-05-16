@@ -1,8 +1,8 @@
 *{margin:0;padding:0;}
-* {
+/* {
     font-size: 12px;
     font-family: Tahoma, Geneva, sans-serif, '宋体';
-}
+}*/
 html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, input, textarea, p, blockquote, th, td {
     padding: 0;
     margin: 0;
@@ -31,6 +31,7 @@ body {
 .logo {
     float: left;
     width: 166px;
+    margin-left: -4px;
 }
 /*右边的搜索框*/
 .north .fright {
@@ -49,6 +50,7 @@ a.searchbtn,a.se_english{text-decoration: none}
     position: relative;
     margin-bottom: 30px;
     padding-left: 10px;
+
     
 }
 .nav .li1.arrbox {
@@ -59,7 +61,7 @@ a.searchbtn,a.se_english{text-decoration: none}
     width: 70px;
 }
 .nav .li1 {
-    font-size: 14px;
+    font-size: 13px;
     /*font-weight: bold;*/
     line-height: 32px;
     float: left;
@@ -70,14 +72,13 @@ ul.nav {
 }
 ul.nav li.nav_li{
     width: 100%;
-    font-size: 14px;
     font-weight: bold;
     line-height: 32px;
     display: inline;
     padding-right: 30px;
     position: relative;
 }
-ul.nav li.nav_li a{font-size: 12px}
+ul.nav li.nav_li a{font-size: 14px; font-family: sans-serif;}
 ul.nav li a:link, a:visited {
     color: #6d6d6d;
     text-decoration: none;
@@ -114,7 +115,7 @@ table tr td a:hover{color: #000}
     font-weight: bold;
     padding-bottom: 5px;
 }
-.jing_xu{border-bottom: 2px dotted #848484;margin-bottom: 20px}
+.jing_xu{border-bottom: 2px dotted #A9A9A9;margin-bottom: 20px}
 ul.jing{list-style: none;text-align: center;}
 ul.jing li{float: left;width: 25%;height: 170px}
 /*ul.jing li:nth-child(n + 1){margin-right:0.8%;margin-left:0.8%;}*/
@@ -126,7 +127,7 @@ ul.jing li{float: left;width: 25%;height: 170px}
     font-weight: bold;
     padding-bottom: 5px;
 }
-.hai_xu{border-bottom: 2px dotted #848484;margin-bottom: 20px}
+.hai_xu{border-bottom: 2px dotted #A9A9A9;margin-bottom: 20px}
 ul.hai{list-style: none;text-align: center;}
 ul.hai li{float: left;width: 25%;height: 170px}
 
@@ -140,14 +141,14 @@ ul.hai li{float: left;width: 25%;height: 170px}
     padding-bottom: 5px;
 }
 
-.lian_xu{border-bottom: 2px dotted #848484;margin-bottom: 20px}
+.lian_xu{border-bottom: 2px dotted #A9A9A9;margin-bottom: 20px}
 ul.lian{list-style: none;margin-bottom: 60px}
 ul.lian li{margin-bottom: 10px}
 ul.lian li.lian_li5{margin-left: 40px}
 li.lian_li6{margin-left: 30px}
 /*版权*/
 ul.ban{list-style: none}
-.ban_xu{border-bottom: 2px dotted #848484;margin-bottom: 15px}
+.ban_xu{border-bottom: 2px dotted #A9A9A9;margin-bottom: 15px}
 
 
 /*Member首页*/
@@ -158,7 +159,7 @@ ul.ban{list-style: none}
     font-weight: bold;
     padding-bottom: 5px;
 }
-.cheng_xu{border-bottom: 2px dotted #848484;margin-bottom: 40px}
+.cheng_xu{border-bottom: 2px dotted #A9A9A9;margin-bottom: 40px}
 .cheng{
     list-style: none;
     margin-bottom: 60px;
@@ -202,7 +203,7 @@ dd p.dd_p3{margin-bottom: }
     font-weight: bold;
     padding-bottom: 5px;
 }
-.newsdongtai_xu{border-bottom: 2px dotted #848484;margin-bottom: 40px}
+.newsdongtai_xu{border-bottom: 2px dotted #A9A9A9;margin-bottom: 40px}
 .news_div,.news_img{text-align: center;margin-bottom: 20px}
 .news_div{margin-bottom: 30px}
 .news_div2 p.news_li_p1{margin-bottom: 5px}
@@ -220,7 +221,7 @@ dd p.dd_p3{margin-bottom: }
     font-weight: bold;
     padding-bottom: 5px;
 }
-.guanyu_xu{border-bottom: 2px dotted #848484;margin-bottom: 40px}
+.guanyu_xu{border-bottom: 2px dotted #A9A9A9;margin-bottom: 40px}
 
 /*关于页面*/
 .about{
@@ -251,7 +252,7 @@ dd p.dd_p3{margin-bottom: }
     font-weight: bold;
     padding-bottom: 5px;
 }
-.Partnership_xu{border-bottom: 2px dotted #848484;margin-bottom: 40px}
+.Partnership_xu{border-bottom: 2px dotted #A9A9A9;margin-bottom: 40px}
 
 /*招聘页面*/
 .Recruitment{clear: both;}
@@ -261,18 +262,18 @@ dd p.dd_p3{margin-bottom: }
     font-weight: bold;
     padding-bottom: 5px;
 }
-.Recruitment_xu{border-bottom: 2px dotted #848484;margin-bottom: 40px}
+.Recruitment_xu{border-bottom: 2px dotted #A9A9A9;margin-bottom: 40px}
 
 /*奥诺斯特画册设计页面*/
 
-.huace{clear: both;margin-bottom: 90px;}
+.huace{clear: both;margin-bottom: 50px;}
 .huace h3{
     margin-bottom: 10px;
     font-size: 14px;
     font-weight: bold;
     padding-bottom: 5px;
 }
-.huace_xu{border-bottom: 2px dotted #848484;margin-bottom: 40px}
+.huace_xu{border-bottom: 2px dotted #A9A9A9;margin-bottom: 40px}
 
 /*东方博瑞品牌形象设计*/
 .dongf_01{margin-bottom: 120px}

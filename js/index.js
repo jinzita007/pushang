@@ -10,8 +10,9 @@ $(function(){
 		$('.arrbox').removeClass('show');
 	})
 	$('ul.nav>li').hover(function(){
-		var _this=$(this).find('>a')	;					  
+		var _this=$(this).find('>a')    ;					  
 		_this.html(_this.attr('t2'));
+       
 	},function(){
 		var _this=$(this).find('>a')	;					  
 		_this.html(_this.attr('t1'));
