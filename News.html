@@ -12,8 +12,13 @@
 	<!--轮播图的js文件-->
 	<script type="text/javascript">
 		$(document).ready(function(){
-		  $('.bxslider,.news').bxSlider({
+		  $('.bxslider').bxSlider({
             auto:true,
+            autoControls: true,
+          });
+          $('.news').bxSlider({
+            auto: true, 
+        
           });
 		});
 	</script>
