@@ -62,7 +62,8 @@ a.searchbtn,a.se_english{text-decoration: none}
 }
 .nav .li1 {
     font-size: 13px;
-    /*font-weight: bold;*/
+    font-family: Tahoma;
+    font-weight: 600;
     line-height: 32px;
     float: left;
     position: relative;
@@ -77,8 +78,9 @@ ul.nav li.nav_li{
     display: inline;
     padding-right: 30px;
     position: relative;
+
 }
-ul.nav li.nav_li a{font-size: 14px; font-family: sans-serif;}
+ul.nav li.nav_li a{font-size: 14px; }
 ul.nav li a:link, a:visited {
     color: #6d6d6d;
     text-decoration: none;
@@ -115,7 +117,7 @@ table tr td a:hover{color: #000}
     font-weight: bold;
     padding-bottom: 5px;
 }
-.jing_xu{border-bottom: 2px dotted #A9A9A9;margin-bottom: 20px}
+.jing_xu{border-bottom: 2px dotted #C5C5C5;margin-bottom: 20px}
 ul.jing{list-style: none;text-align: center;}
 ul.jing li{float: left;width: 25%;height: 170px}
 /*ul.jing li:nth-child(n + 1){margin-right:0.8%;margin-left:0.8%;}*/
@@ -127,7 +129,7 @@ ul.jing li{float: left;width: 25%;height: 170px}
     font-weight: bold;
     padding-bottom: 5px;
 }
-.hai_xu{border-bottom: 2px dotted #A9A9A9;margin-bottom: 20px}
+.hai_xu{border-bottom: 2px dotted #C5C5C5;margin-bottom: 20px}
 ul.hai{list-style: none;text-align: center;}
 ul.hai li{float: left;width: 25%;height: 170px}
 
@@ -135,31 +137,31 @@ ul.hai li{float: left;width: 25%;height: 170px}
 /*联系我们*/
 .lianxi{bottom:0;}
 .lianxi h3{
-    margin-bottom: 10px;
+    margin-bottom: 6px;
     font-size: 14px;
     font-weight: bold;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
 }
 
-.lian_xu{border-bottom: 2px dotted #A9A9A9;margin-bottom: 20px}
+.lian_xu{border-bottom: 2px dotted #C5C5C5;margin-bottom: 20px}
 ul.lian{list-style: none;margin-bottom: 60px}
 ul.lian li{margin-bottom: 10px}
 ul.lian li.lian_li5{margin-left: 40px}
 li.lian_li6{margin-left: 30px}
 /*版权*/
 ul.ban{list-style: none}
-.ban_xu{border-bottom: 2px dotted #A9A9A9;margin-bottom: 15px}
+.ban_xu{border-bottom: 2px dotted #C5C5C5;margin-bottom: 15px}
 
 
 /*Member首页*/
 .chengyuan{clear: both;}
 .chengyuan h3{
-    margin-bottom: 10px;
+    margin-bottom: 6px;
     font-size: 14px;
     font-weight: bold;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
 }
-.cheng_xu{border-bottom: 2px dotted #A9A9A9;margin-bottom: 40px}
+.cheng_xu{border-bottom: 2px dotted #C5C5C5;margin-bottom: 40px}
 .cheng{
     list-style: none;
     margin-bottom: 60px;
@@ -198,12 +200,12 @@ dd p.dd_p3{margin-bottom: }
 }
 /*News 动态*/
 .newsdongtai h3{
-    margin-bottom: 10px;
+    margin-bottom: 6px;
     font-size: 14px;
     font-weight: bold;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
 }
-.newsdongtai_xu{border-bottom: 2px dotted #A9A9A9;margin-bottom: 40px}
+.newsdongtai_xu{border-bottom: 2px dotted #C5C5C5;margin-bottom: 40px}
 .news_div,.news_img{text-align: center;margin-bottom: 20px}
 .news_div{margin-bottom: 30px}
 .news_div2 p.news_li_p1{margin-bottom: 5px}
@@ -216,12 +218,12 @@ dd p.dd_p3{margin-bottom: }
 /*关于朴上*/
 .guanyu{clear: both;}
 .guanyu h3{
-    margin-bottom: 10px;
+    margin-bottom: 6px;
     font-size: 14px;
     font-weight: bold;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
 }
-.guanyu_xu{border-bottom: 2px dotted #A9A9A9;margin-bottom: 40px}
+.guanyu_xu{border-bottom: 2px dotted #C5C5C5;margin-bottom: 40px}
 
 /*关于页面*/
 .about{
@@ -238,7 +240,7 @@ dd p.dd_p3{margin-bottom: }
 .fu_div{float: left;width: 40%;}
 .fu_div_m{margin-bottom: 130px}
 
-.hezuo{margin-bottom: 145px}
+.hezuo{margin-bottom: 125px}
 .he_h{margin-bottom: 10px}
 .he_div{float: left;width: 50%}
 .he_p{padding: inherit;line-height: 1.6;}
@@ -247,33 +249,33 @@ dd p.dd_p3{margin-bottom: }
 /*合作页面*/
 .Partnership{clear: both;}
 .Partnership h3{
-    margin-bottom: 10px;
+    margin-bottom: 6px;
     font-size: 14px;
     font-weight: bold;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
 }
-.Partnership_xu{border-bottom: 2px dotted #A9A9A9;margin-bottom: 40px}
+.Partnership_xu{border-bottom: 2px dotted #C5C5C5;margin-bottom: 40px}
 
 /*招聘页面*/
 .Recruitment{clear: both;}
 .Recruitment h3{
-    margin-bottom: 10px;
+    margin-bottom: 6px;
     font-size: 14px;
     font-weight: bold;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
 }
-.Recruitment_xu{border-bottom: 2px dotted #A9A9A9;margin-bottom: 40px}
+.Recruitment_xu{border-bottom: 2px dotted #C5C5C5;margin-bottom: 40px}
 
 /*奥诺斯特画册设计页面*/
 
 .huace{clear: both;margin-bottom: 50px;}
 .huace h3{
-    margin-bottom: 10px;
+    margin-bottom: 6px;
     font-size: 14px;
     font-weight: bold;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
 }
-.huace_xu{border-bottom: 2px dotted #A9A9A9;margin-bottom: 40px}
+.huace_xu{border-bottom: 2px dotted #C5C5C5;margin-bottom: 40px}
 
 /*东方博瑞品牌形象设计*/
 .dongf_01{margin-bottom: 120px}
@@ -334,6 +336,6 @@ ul.pinpang li{display: inline-block;width: 25%;line-height: 1.8}
     border-top: 8px solid #7D7D7D;
     position: absolute;
     top: 13px;
-    left: 40px;
+    left: 45px;
 }
 
