@@ -6,7 +6,7 @@
 html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, input, textarea, p, blockquote, th, td {
     padding: 0;
     margin: 0;
-    font-size: 12px;
+    font-size: 16px;
     font-family: Tahoma,Verdana,微软雅黑,新宋体;
 }
 body {
@@ -172,7 +172,7 @@ ul.ban{list-style: none}
 
 /*Member首页*/
 .chengyuan{clear: both;}
-.chengyuan h3{
+.chengyuan h2{
     margin-bottom: 6px;
     font-size: 14px;
     font-weight: bold;
@@ -197,18 +197,18 @@ ul.ban{list-style: none}
     
 }
 .cheng dd {
-    width: 676px;
+    width: 695px;
     float: left;
 }
-.cheng dd h3{color: #FFDC0D}
+.cheng dd h3{color: #FFDC0D;font-size: 18px}
 dl.dl_01{margin-bottom: 150px}
 dd{display: block;}
-dd h4{color: #FFDC0D} 
+dd h4{color: #FFDC0D;} 
 dd h4.dd_h5{color:#6D6D6D} 
 dd h3{margin-bottom: 10px}
 dd p{line-height: 1.8}
 dd p.dd_p1{margin-bottom: 10px}
-dd p.dd_p2{margin-bottom: 105px}
+dd p.dd_p2{margin-bottom: 43px}
 dd p.dd_p3{margin-bottom: }
 .dt_01{border-right: 1px solid #FFDC0D;line-height: 80px;}
 .dt_h{outline: 1px solid #FFDC0D;
