@@ -17,14 +17,14 @@ body {
     clear: both;
 }
 .containor {
-    width: 910px;
+    width: 1030px;
     background: #fff;
     padding: 5px 25px 25px;
     margin: 0 auto;
     color: #6d6d6d;
 }
 .north {
-    padding: 35px 0 24px;
+    padding: 30px 0 0px;
 }
 /*左边的logo*/
 .logo a img{width: 200px;height: 200px}
@@ -38,7 +38,7 @@ body {
     float: right;
     width: 400px;
     text-align: right;
-    padding-top: 80px;
+    padding-top: 35px;
     padding-right: 30px;
 }
 a.searchbtn,a.se_english{text-decoration: none}
@@ -118,8 +118,14 @@ table tr td a:hover{color: #000}
     padding-bottom: 5px;
 }
 .jing_xu{border-bottom: 2px dotted #C5C5C5;margin-bottom: 20px}
-ul.jing{list-style: none;text-align: center;}
-ul.jing li{float: left;width: 25%;height: 170px}
+ul.jing{
+    list-style: none;
+    text-align: center;
+    margin-left: -1em;
+    overflow: auto;
+    margin-right: -1em; 
+}
+ul.jing li{float: left;width: 25%;height: 174px}
 /*ul.jing li:nth-child(n + 1){margin-right:0.8%;margin-left:0.8%;}*/
 
 /*海报欣赏*/
@@ -130,8 +136,19 @@ ul.jing li{float: left;width: 25%;height: 170px}
     padding-bottom: 5px;
 }
 .hai_xu{border-bottom: 2px dotted #C5C5C5;margin-bottom: 20px}
-ul.hai{list-style: none;text-align: center;}
-ul.hai li{float: left;width: 25%;height: 170px}
+ul.hai{
+    list-style: none;
+    text-align: center;
+    margin-left: -1em;
+    overflow: auto;
+    margin-right: -1em;
+    list-style: none;
+    text-align: center;
+    margin-left: -1em;
+    overflow: auto;
+    margin-right: -1em;
+}
+ul.hai li{float: left;width: 25%;height: 174px}
 
 .footer{clear:both;}
 /*联系我们*/
@@ -305,14 +322,15 @@ ul.pinpang li{display: inline-block;width: 25%;line-height: 1.8}
 .txt-two{
     position: absolute;
     left: 0;
-    top: 0;
-    width: 100%;
-    padding-top: 60px;
-    line-height: 45px;
+    padding-top: 55px;
+    line-height: 75px;
     text-align: center;
     color: #000;
     background: rgba(255, 220, 13, 0.57);
     display: none;
+    width: 240px;
+    margin-left: 1em;
+    
 }
 .txt-two p.txt-two_p1{
     position: relative;
@@ -321,7 +339,7 @@ ul.pinpang li{display: inline-block;width: 25%;line-height: 1.8}
 }
 .txt-two p.txt-two_p2{
     position: relative;
-    bottom: 30px;
+    bottom: 50px;
     font-size: 14px;
     display: block;
     line-height: 20px;
@@ -338,4 +356,8 @@ ul.pinpang li{display: inline-block;width: 25%;line-height: 1.8}
     top: 13px;
     left: 45px;
 }
+
+/*图像尺寸*/
+.con-two img{width: 240px;height: 150px}
+
 
